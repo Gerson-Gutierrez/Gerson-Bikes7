@@ -1,0 +1,39 @@
+/*Footer*/
+
+.footer {
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    
+} 
+
+.footer p {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    min-height: 10vh;
+}
+
+.buttons_redes {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons_redes a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color:map-get($colors,amarillo);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons_redes a:hover {
+    transform: scale(1.2);}

@@ -1,0 +1,44 @@
+/*Bikes*/
+
+.body-gallery {
+    background-image: url(../images/fondosdehtml/bikes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.titulo{
+    color: white;
+    text-align: center;
+}
+.contenedor-galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.galeria__img{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    filter: brightness(70%);
+    animation: escalar 1.5s infinite alternate;
+}
+@keyframes escalar{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform:scale(1.05);
+    }
+}
+.galeria__img:hover{
+    filter: brightness(100%);
+}
+
