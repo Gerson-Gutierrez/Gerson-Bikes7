@@ -1,66 +1,301 @@
 .body-About {
-    background-image: url(../images/fondosdehtml/about.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+    // min-height: 100vh;
+}
 
+.parallax {
+    background-image: url(https://images.unsplash.com/photo-1610040173942-843927e73f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    // opacity: 0.7;
+
+    .parallax-text {
+        display: flex;
+        width: 100%;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 10rem;
+
+        h3 {
+            display: flex;
+            width: 100%;
+            height: 600px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
 
 }
 
-.About-container {
+.stem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+    align-items: center;
     gap: 2rem;
+    // justify-content: center;
+    justify-items: center;
     align-items: center;
-  
 
 }
 
-.About-description {
+.pedal {
     flex-basis: 50%;
-    color: $principal;
-
-
-}
-
-.presentation-container-about h1 {
-    font-size: 5.2em;
-    text-align: center;
-}
-
-.presentation-container-about h2 {
-    font-size: 3.2em;
-    text-align: center;
-
-}
-
-.presentation-container-about p {
-    font-size: 3em;
-}
-
-.ruedas{
+    width: 100%;
+    height: 600px;
     
-    align-items: center;
-    color: white;
-    font-size: 2.5em;
-    padding: 5rem;
-    @include flex(row,space-between,center,map-get($spacings,medium), 4rem)
 }
+
+.photo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+
+
+.manubrio {
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-basis: 50%;
+    // gap: 2rem;
+
+    .manubrio__cosas {
+      width: 100%;
+      height: 300px;
+      align-items: center;
+
+        p {
+            font-size: 2.5em;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+    }
+}
+
+.our__aim {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 2rem;
+
+    }
+}
+
 
 
 /*Media queries*/
 
-@media (max-width: 768px) {
-    .About-container {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: .8em;
+@media screen and (max-width: 768px) {
+    .parallax {
+        width: 100%;
+
+
+        .parallax-text {
+            text-align: center;
+        }
     }
 
-    .About-description {
-        flex-direction: column;
-        align-items: center;
+    .stem {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
     }
+
+    .pedal{
+        width: 100%;
+        height: 500px;
+        align-items: center;
+
+        .photo{
+            width: 200%;
+        }
+    }
+
+    .manubrio{
+        display: flex;
+        width: 100%;
+        height: 100px;
+
+        h1{
+            width: 200%;
+        }
+        p{
+            width: 200%;
+        }
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .stem{
+//     display: flex;
+//     flex-direction: row;
+//     height: 500px;
+//     width: 100%;
+//     align-items: center;
+
+//     pedal{
+
+//     }
+//     img.photo{
+//         display: flex;
+//         width: 100%;
+//         height: 400px;
+//         gap: 2rem;
+//         align-items: center;
+//     }
+
+
+//     .manubrio__container{
+//         display: flex;
+//         color: white;
+//         text-align: center;
+//         width: 50%;
+//         height: 400px;
+//     }
+//     p{
+//         justify-content: center;
+//         font-size: 1em;
+//         text-align: center;
+//         align-items: center;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .About-container {
+//     gap: 2rem;
+//     align-items: center;
+
+
+// }
+
+// .About-description {
+//     flex-basis: 50%;
+//     color: $principal;
+
+
+// }
+
+// .presentation-container-about h1 {
+//     font-size: 5.2em;
+//     text-align: center;
+// }
+
+// .presentation-container-about h2 {
+//     font-size: 3.2em;
+//     text-align: center;
+
+// }
+
+// .presentation-container-about p {
+//     font-size: 3em;
+// }
+
+// .ruedas{
+
+//     align-items: center;
+//     color: white;
+//     font-size: 2.5em;
+//     padding: 5rem;
+//     @include flex(row,space-between,center,map-get($spacings,medium), 4rem)
+// }
+
+
+// /*Media queries*/
+
+// @media (max-width: 768px) {
+//     .About-container {
+//         display: flex;
+//         flex-wrap: wrap;
+//         font-size: .8em;
+//     }
+
+//     .About-description {
+//         flex-direction: column;
+//         align-items: center;
+//     }
+// }
