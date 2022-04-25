@@ -1,6 +1,7 @@
 /* HEADER & NAVBAR */
 
-header {background-color: #000;
+header {
+    background-color: #000;
 }
 
 header .navbar {
@@ -21,29 +22,22 @@ header .menu {
 
 }
 
-.menu .menu__item{
+.menu .menu__item {
     border: 2px solid $principal;
     transition: all .3s ease-in-out;
-    
+
 }
-.menu .menu__item:hover{
+
+.menu .menu__item:hover {
     border-color: $secondary;
 }
 
 .menu .menu__item .menu__link {
     font-size: 1.8em;
     padding: 1rem;
-    
+
 }
 
-// .menu__link{
-//     &--active{
-//         @extend .menu__link;
-//         border-bottom: 2px solid white;
-    
-//         }
-
-// }
 
 .navbar .menu__item .sub-menu {
     display: none;
@@ -65,6 +59,18 @@ header .menu {
     color: $principal;
 }
 
+// .nav-toggle{
+//     color: white;
+//     background: none;
+//     border: none;
+//     font-size: 30px;
+//     padding: 0 20px;
+//     line-height: 60px;
+
+//     // display: none;
+
+// }
+
 /*Media queries*/
 @media screen and (max-width: 768px) {
     header {
@@ -76,4 +82,40 @@ header .menu {
         justify-content: center;
     }
 }
+
+/*Media queries 320*/
+
+@media screen and (max-width: 320px){
+    header {
+        margin: 0;
+        max-width: 320px;
+    
+        .navbar {
+            justify-content: space-around;
+    
+            .logo {
+                width: 100%;
+    
+                img {
+                    width: 280px;
+                }
+    
+            }
+    
+            ul {
+                font-size: 0.5em;
+                padding-left: 0;
+            }
+    
+        }
+    
+    }
+
+}
+
+
+
+
+
+
 
