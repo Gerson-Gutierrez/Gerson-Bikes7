@@ -59,17 +59,6 @@ header .menu {
     color: $principal;
 }
 
-// .nav-toggle{
-//     color: white;
-//     background: none;
-//     border: none;
-//     font-size: 30px;
-//     padding: 0 20px;
-//     line-height: 60px;
-
-//     // display: none;
-
-// }
 
 /*Media queries*/
 @media screen and (max-width: 768px) {
@@ -83,39 +72,148 @@ header .menu {
     }
 }
 
-/*Media queries 320*/
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px) {
     header {
         margin: 0;
-        max-width: 320px;
-    
+        max-width: 600px;
+
         .navbar {
             justify-content: space-around;
-    
+
             .logo {
                 width: 100%;
-    
+
                 img {
                     width: 280px;
                 }
-    
+
             }
-    
+
             ul {
-                font-size: 0.5em;
+                font-size: 0.9em;
                 padding-left: 0;
             }
-    
+
+
         }
-    
     }
+
+
+
+
+}
+
+@media screen and (max-width: 414px) {
+
+    header {
+        margin: 0;
+        max-width: 414px;
+
+        .navbar {
+            justify-content: space-around;
+
+            .logo {
+                width: 100%;
+
+                img {
+                    width: 280px;
+                }
+
+            }
+
+            ul {
+                font-size: 0.9em;
+                padding-left: 0;
+            }
+
+
+        }
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    header {
+        margin: 0;
+        max-width: 375px;
+
+        .navbar {
+            justify-content: space-around;
+
+            .logo {
+                width: 100%;
+
+                img {
+                    width: 280px;
+                }
+
+            }
+
+            ul {
+                font-size: 0.8em;
+                padding-left: 0;
+            }
+
+
+        }
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        margin: 0;
+        max-width: 360px;
+
+        .navbar {
+            justify-content: space-around;
+
+            .logo {
+                width: 100%;
+
+                img {
+                    width: 280px;
+                }
+
+            }
+
+            ul {
+                font-size: 0.8em;
+                padding-left: 0;
+            }
+
+        }
+
+    }
+
 
 }
 
 
+@media screen and (max-width: 320px) {
+    header {
+        margin: 0;
+        max-width: 320px;
 
+        .navbar {
+            justify-content: space-around;
 
+            .logo {
+                width: 100%;
 
+                img {
+                    width: 280px;
+                }
 
+            }
 
+            ul {
+                font-size: 0.5em;
+                padding-left: 0;
+            }
+
+        }
+
+    }
+
+}

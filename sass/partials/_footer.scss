@@ -5,11 +5,14 @@
   height: 500px;
   align-items: flex-end;
   justify-content: center;
-  gap: 10rem;
+  // gap: 10rem;
   width: 100%;
 
   .pie {
     height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
    
 
     p {
@@ -18,8 +21,9 @@
       text-align: center;
       color: #fff;
       min-height: 10vh;
-      align-items: center;
+      align-items: flex-end;
       width: 100%;
+      display: flex;
     }
 
     .buttons_redes {
@@ -69,33 +73,3 @@
 
 
 
-
-// footer{
-//   min-width: 320px;
-//   width: 320px;
-//   font-size: 0.3em;
-//   .buttons_redes{
-//     min-width: 700px;
-//     width: 320px;
-//     justify-content: space-between;
-//     display:flex;
-//     flex-wrap: wrap;
-//     a {
-//       display:flex;
-//     flex-wrap: wrap;
-//     text-decoration: none;
-//     font-size: 28px;
-//     width: 60px;
-//     height: 60px;
-//     line-height: 60px;
-//     text-align: center;
-//     background: #314652;
-//     color: map-get($colors, amarillo);
-//     border-radius: 50%;
-//     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-//     transition: all .4s ease-in-out;
-//   }
-
-//   }
-// }
-// }

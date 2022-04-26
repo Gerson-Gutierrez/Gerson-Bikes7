@@ -24,6 +24,7 @@
         align-items: center;
         color: white;
         font-size: 10rem;
+        text-align: center;
 
         h3 {
             display: flex;
@@ -32,6 +33,7 @@
             color: white;
             align-items: center;
             justify-content: center;
+            
         }
 
     }
@@ -208,22 +210,22 @@
             display: flex;
             height: 550px;
             align-items: center;
-            justify-content: center;
             width: 100%;
 
             .pie {
 
                 height: 200px;
                 align-items: center;
+                display: flex;
+                flex-direction: column;
 
                 p {
 
-
+                    display: flex;
                     font-size: 2em;
                     text-align: center;
                     color: #fff;
-                    min-height: 10vh;
-                    align-items: center;
+                    align-items: flex-end;
 
                 }
 
@@ -266,6 +268,805 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    .main_service{
+        width: 600px;
+        overflow: hidden;
+        
+        .parallax__service {
+            background-image: url(https://images.unsplash.com/photo-1648037343010-b7ca6246503c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 600px;
+            
+        
+            .parallax_text_service {
+                display: flex;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 6em;
+        
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 600px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+            }
+        
+        }
+        
+        
+        
+        
+        .service-container {
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+        
+        
+            .service-description {
+                color: $secondary;
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        
+        
+        
+                .presentation-container-service h1 {
+                    font-size: 4em;
+                    text-align: center;
+                    width: 100%;
+        
+        
+        
+                }
+        
+                .presentation-container-service p {
+                    font-size: 2em;
+                    text-align: center;
+                    width: 100%;
+        
+        
+                }
+        
+        
+            }
+        
+        
+        
+            .bici__service {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+        
+                .bici_service_img {
+                    width: 600px;
+                    height: 500px;
+        
+                }
+        
+            }
+        
+        } 
+        .footer {
+            display: flex;
+            height: 300px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 300px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 2em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 550px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 28px;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+    
+    
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+
+    .main_service{
+        width: 480px;
+        overflow: hidden;
+        
+
+        .parallax__service {
+            background-image: url(https://images.unsplash.com/photo-1648037343010-b7ca6246503c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 700px;
+            
+        
+            .parallax_text_service {
+                display: flex;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 6em;
+                text-align: center;
+        
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 600px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+            }
+        
+        }
+        
+        
+        
+        
+        .service-container {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+        
+        
+            .service-description {
+                color: $secondary;
+                width: 100%;
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        
+        
+        
+                .presentation-container-service h1 {
+                    font-size: 4.2em;
+                    text-align: center;
+                    width: 100%;
+                    height: 100px;
+                    align-items: center;
+                    display: flex;
+        
+        
+        
+                }
+        
+                .presentation-container-service p {
+                    font-size: 2em;
+                    text-align: center;
+                    width: 100%;
+        
+        
+                }
+        
+        
+            }
+        
+        
+        
+            .bici__service {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+        
+                .bici_service_img {
+                    width: 80%;
+                    height: 400px;
+        
+                }
+        
+            }
+        
+        } 
+
+        .footer {
+            display: flex;
+            height: 300px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+
+                height: 200px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+
+                    display: flex;
+                    font-size: 2em;
+                    text-align: center;
+                    color: #fff;
+                    align-items: flex-end;
+                    min-height: 10vh;
+
+                }
+
+                .buttons_redes {
+                    min-width: 450px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 28px;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+    }
+    
+}
+
+@media screen and (max-width:414px){
+
+    .main_service{
+        width: 414px;
+        overflow: hidden;
+
+        .parallax__service {
+            background-image: url(https://images.unsplash.com/photo-1648037343010-b7ca6246503c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+            
+        
+            .parallax_text_service {
+                display: flex;
+                width: 100%;
+                height: 500px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 3em;
+                text-align: center;
+        
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 600px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+            }
+        
+        }
+        
+        
+        
+        
+        .service-container {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+        
+        
+            .service-description {
+                color: $secondary;
+                width: 100%;
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+        
+        
+        
+                .presentation-container-service h1 {
+                    font-size: 2.5em;
+                    text-align: center;
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+        
+        
+        
+                }
+        
+                .presentation-container-service p {
+                    font-size: 2em;
+                    text-align: center;
+                    width: 100%;
+        
+        
+                }
+        
+        
+            }
+        
+        
+        
+            .bici__service {
+                width: 100%;
+                height: 500px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+        
+                .bici_service_img {
+                    width: 100%;
+                    height: 300px;
+        
+                }
+        
+            }
+        
+            
+        
+        } 
+    
+        .footer {
+            display: flex;
+            height: 400px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 250px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 2em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 450px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+    
+    
+    
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    .main_service{
+        width: 375px;
+        overflow: hidden;
+
+        .parallax__service {
+            background-image: url(https://images.unsplash.com/photo-1648037343010-b7ca6246503c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+            
+        
+            .parallax_text_service {
+                display: flex;
+                width: 100%;
+                height: 500px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 4em;
+                text-align: center;
+        
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 500px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+            }
+        
+        }
+        
+        
+        
+        
+        .service-container {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+        
+        
+            .service-description {
+                color: $secondary;
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        
+        
+        
+                .presentation-container-service h1 {
+                    font-size: 3.2em;
+                    text-align: center;
+                    width: 100%;
+                    height: 100px;
+                    align-items: center;
+                    display: flex;
+                }
+        
+                .presentation-container-service p {
+                    font-size: 1.5em;
+                    text-align: center;
+                    width: 100%;
+        
+        
+                }
+        
+        
+            }
+        
+        
+        
+            .bici__service {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                .bici_service_img {
+                    width: 100%;
+                    height: 300px;
+                }
+        
+            }
+        
+        } 
+
+        .footer {
+            display: flex;
+            height: 300px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 150px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 1em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 400px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+    
+    }
+    
+}
+
+@media screen and (max-width:360px){
+
+    .main_service{
+        width: 360px;
+        overflow: hidden;
+
+        .parallax__service {
+            background-image: url(https://images.unsplash.com/photo-1648037343010-b7ca6246503c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+            
+        
+            .parallax_text_service {
+                display: flex;
+                width: 100%;
+                height: 500px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 4em;
+                text-align: center;
+        
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 500px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+            }
+        
+        }
+        
+        
+        
+        
+        .service-container {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+        
+        
+            .service-description {
+                color: $secondary;
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        
+        
+        
+                .presentation-container-service h1 {
+                    font-size: 3.2em;
+                    text-align: center;
+                    width: 100%;
+                    height: 100px;
+                    align-items: center;
+                    display: flex;
+                }
+        
+                .presentation-container-service p {
+                    font-size: 1.5em;
+                    text-align: center;
+                    width: 100%;
+        
+        
+                }
+        
+        
+            }
+        
+        
+        
+            .bici__service {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                .bici_service_img {
+                    width: 100%;
+                    height: 300px;
+                }
+        
+            }
+        
+        } 
+    
+        .footer {
+            display: flex;
+            height: 200px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 150px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 1.5em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 300px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+    
+    }
+    
+}
 
 @media screen and (max-width: 320px) {
 
@@ -326,13 +1127,15 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                text-align: center;
 
 
 
                 .presentation-container-service h1 {
-                    font-size: 2em;
+                    font-size: 3em;
                     text-align: center;
                     width: 100%;
+                    display: flex;
 
 
 
@@ -372,31 +1175,22 @@
             display: flex;
             height: 200px;
             align-items: flex-end;
-            justify-content: center;
-            gap: 10rem;
             width: 100%;
 
             .pie {
-                height: 200px;
+                height: 100px;
                 display: flex;
-                align-items: flex-end;
                 flex-direction: column;
-                width: 320px;
                 align-items: center;
 
 
                 p {
-
                     font-size: 1em;
-                    // text-align: center;
+                    text-align: center;
                     color: #fff;
                     min-height: 10vh;
                     align-items: flex-end;
-                    width: 100%;
-                    height: 100px;
                     display: flex;
-                    justify-content: center;
-                    justify-items: center;
                 }
 
                 .buttons_redes {

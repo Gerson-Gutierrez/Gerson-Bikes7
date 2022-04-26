@@ -13,7 +13,7 @@
     background-attachment: fixed;
     width: 100%;
     height: 800px;
-    // opacity: 0.7;
+
 
     .parallax-text {
         display: flex;
@@ -23,6 +23,7 @@
         align-items: center;
         color: white;
         font-size: 10rem;
+        text-align: center;
 
         h3 {
             display: flex;
@@ -128,8 +129,8 @@
             background-attachment: fixed;
             width: 100%;
             height: 800px;
-            
-        
+
+
             .parallax-text {
                 display: flex;
                 width: 100%;
@@ -138,7 +139,8 @@
                 align-items: center;
                 color: white;
                 font-size: 6em;
-        
+
+
                 h3 {
                     display: flex;
                     width: 100%;
@@ -146,12 +148,13 @@
                     color: white;
                     align-items: center;
                     justify-content: center;
+
                 }
-        
+
             }
-        
+
         }
-        
+
         .stem {
             display: flex;
             width: 768px;
@@ -161,9 +164,9 @@
             justify-items: center;
             align-items: center;
             flex-wrap: wrap;
-        
+
         }
-        
+
         .pedal {
             width: 768px;
             height: 600px;
@@ -174,14 +177,14 @@
                 width: 768px;
                 height: 500px;
                 display: flex;
-            
+
             }
-        
+
         }
-        
-        
-        
-        
+
+
+
+
         .manubrio {
             display: flex;
             color: white;
@@ -190,23 +193,23 @@
             align-items: center;
             text-align: center;
             display: flex;
-         
-        
+
+
             .manubrio__cosas {
                 width: 768px;
                 height: 500px;
                 align-items: center;
-        
+
                 p {
                     font-size: 2.5em;
                 }
-        
+
                 h1 {
                     font-size: 3em;
                 }
             }
         }
-        
+
         .our__aim {
             display: flex;
             width: 768px;
@@ -214,63 +217,32 @@
             text-align: center;
             justify-content: center;
             color: white;
-        
+
             h1 {
                 font-size: 4rem;
             }
-        
+
             p {
                 font-size: 2rem;
-        
+
             }
         }
 
-        // .stem {
-        //     width: 100%;
-        //     height: 1000px;
-        //     display: flex;
-        //     flex-direction: row;
-        //     flex-wrap: wrap;
 
-        // }
 
-        // .pedal {
-        //     width: 100%;
-        //     height: 500px;
-        //     align-items: center;
-
-        //     .photo {
-        //         width: 200%;
-        //     }
-        // }
-
-        // .manubrio {
-        //     display: flex;
-        //     width: 100%;
-        //     height: 100px;
-
-        //     h1 {
-        //         width: 200%;
-        //     }
-
-        //     p {
-        //         width: 200%;
-        //     }
-
-        // }
-    
         .footer {
             display: flex;
             height: 550px;
             align-items: center;
             justify-content: center;
-            // gap: 10rem;
             width: 100%;
 
             .pie {
 
                 height: 200px;
                 align-items: center;
+                display: flex;
+                flex-direction: column;
 
                 p {
 
@@ -279,7 +251,8 @@
                     text-align: center;
                     color: #fff;
                     min-height: 10vh;
-                    align-items: center;
+                    align-items: flex-end;
+                    display: flex;
 
                 }
 
@@ -311,8 +284,874 @@
             }
 
         }
+
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main_about {
+        width: 600px;
+        overflow: hidden;
+
+        .parallax {
+            background-image: url(https://images.unsplash.com/photo-1610040173942-843927e73f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 600px;
+
+
+            .parallax-text {
+                display: flex;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 6em;
+
+
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 600px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+            }
+
+        }
+
+        .stem {
+            display: flex;
+            width: 600px;
+            height: 900px;
+            align-items: center;
+            gap: 2rem;
+            justify-items: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .pedal {
+            width: 600px;
+            height: 400px;
+            display: flex;
+            align-items: flex-end;
+            order: 1;
+
+            .photo {
+                width: 600px;
+                height: 500px;
+                display: flex;
+
+            }
+
+        }
+
+
+
+
+        .manubrio {
+            display: flex;
+            color: white;
+            width: 600px;
+            height: 400px;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            order: -1;
+
+
+            .manubrio__cosas {
+                width: 600px;
+                height: 300px;
+                align-items: center;
+
+                p {
+                    font-size: 2em;
+                }
+
+                h1 {
+                    font-size: 3em;
+                }
+            }
+        }
+
+        .our__aim {
+            display: flex;
+            width: 600px;
+            height: 500px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 2rem;
+
+            }
+        }
+
+        .footer {
+            display: flex;
+            height: 300px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 300px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 2em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 550px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 28px;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .main_about {
+        width: 480px;
+        overflow: hidden;
+
+        .parallax {
+            background-image: url(https://images.unsplash.com/photo-1610040173942-843927e73f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 700px;
+
+
+            .parallax-text {
+                display: flex;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 6em;
+                text-align: center;
+
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 600px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
+
+        }
+
+        .stem {
+            display: flex;
+            width: 480px;
+            height: 900px;
+            align-items: center;
+            gap: 2rem;
+            justify-items: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .pedal {
+            width: 480px;
+            height: 600px;
+            display: flex;
+            align-items: flex-end;
+
+            .photo {
+                width: 480px;
+                height: 500px;
+                display: flex;
+
+            }
+
+        }
+
+
+
+
+        .manubrio {
+            display: flex;
+            color: white;
+            width: 480px;
+            height: 500px;
+            align-items: center;
+            text-align: center;
+            display: flex;
+
+
+            .manubrio__cosas {
+                width: 480px;
+                height: 500px;
+                align-items: center;
+
+                p {
+                    font-size: 2em;
+                }
+
+                h1 {
+                    font-size: 3em;
+                }
+            }
+        }
+
+        .our__aim {
+            display: flex;
+            width: 480px;
+            height: 500px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 2rem;
+
+            }
+        }
+
+
+
+        .footer {
+            display: flex;
+            height: 300px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+
+                height: 200px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+
+
+                    font-size: 2em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 450px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 28px;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+
+
+    }
+
+}
+
+@media screen and (max-width: 414px){
+    .main_about{
+        width: 414px;
+        overflow: hidden;
+
+      
+        .parallax {
+            background-image: url(https://images.unsplash.com/photo-1610040173942-843927e73f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 600px;
+
+
+            .parallax-text {
+                display: flex;
+                width: 100%;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 3em;
+                text-align: center;
+
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 600px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
+
+        }
+
+        .stem {
+            display: flex;
+            width: 414px;
+            height: 900px;
+            align-items: center;
+            gap: 2rem;
+            justify-items: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+
+            .pedal {
+                width: 100%;
+                height: 300px;
+                display: flex;
+                align-items: flex-end;
     
+                .photo {
+                    width: 414px;
+                    height: 300px;
+                    display: flex;
     
+                }
+    
+            }
+
+        }
+
+       
+
+
+
+
+        .manubrio {
+            display: flex;
+            color: white;
+            width: 100%;
+            height: 500px;
+            align-items: flex-end;
+            text-align: center;
+            display: flex;
+
+
+            .manubrio__cosas {
+                width: 414px;
+                height: 500px;
+                align-items:center;
+                flex-direction: column;
+                display: flex;
+
+
+                p {
+                    font-size: 2em;
+        
+                }
+
+                h1 {
+                    font-size: 3em;
+                    height: 100px;
+                    
+                }
+            }
+        }
+
+        .our__aim {
+            display: flex;
+            width: 414px;
+            height: 500px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 2rem;
+
+            }
+        }
+
+      
+        .footer {
+            display: flex;
+            height: 400px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 250px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 2em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 450px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+
+    }
+    
+}
+
+@media screen and (max-width:375px){
+    .main_about{
+        width: 375px;
+        overflow: hidden;
+
+        .parallax {
+            background-image: url(https://images.unsplash.com/photo-1610040173942-843927e73f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+
+
+            .parallax-text {
+                display: flex;
+                width: 360px;
+                height: 500px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 4em;
+                text-align: center;
+
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 200px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
+
+        }
+
+        .stem {
+            display: flex;
+            width: 360px;
+            height: 700px;
+            align-items: center;
+            gap: 2rem;
+            justify-items: center;
+            align-items: center;
+            flex-wrap: wrap;
+            order: 1;
+
+            .pedal {
+                width: 360px;
+                height: 300px;
+                display: flex;
+                align-items: flex-end;
+
+                .photo {
+                    width: 360px;
+                    height: 300px;
+                    display: flex;
+
+                }
+
+            }
+
+
+        }
+
+
+        .manubrio {
+            display: flex;
+            color: white;
+            width: 360px;
+            height: 300px;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            order: -1;
+
+
+            .manubrio__cosas {
+                width: 360px;
+                height: 200px;
+                align-items: center;
+
+                p {
+                    font-size: 1.5em;
+                }
+
+                h1 {
+                    font-size: 2em;
+                }
+            }
+        }
+
+        .our__aim {
+            display: flex;
+            width: 360px;
+            height: 300px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1.5em;
+
+            }
+        }
+      
+        .footer {
+            display: flex;
+            height: 300px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+                height: 150px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    font-size: 1em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 400px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+
+
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+
+    .main_about {
+        width: 360px;
+        overflow: hidden;
+
+        .parallax {
+            background-image: url(https://images.unsplash.com/photo-1610040173942-843927e73f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 500px;
+
+
+            .parallax-text {
+                display: flex;
+                width: 360px;
+                height: 500px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 4em;
+                text-align: center;
+
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    height: 200px;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
+
+        }
+
+        .stem {
+            display: flex;
+            width: 360px;
+            height: 700px;
+            align-items: center;
+            gap: 2rem;
+            justify-items: center;
+            align-items: center;
+            flex-wrap: wrap;
+            order: 1;
+
+            .pedal {
+                width: 360px;
+                height: 300px;
+                display: flex;
+                align-items: flex-end;
+
+                .photo {
+                    width: 360px;
+                    height: 300px;
+                    display: flex;
+
+                }
+
+            }
+
+
+        }
+
+
+        .manubrio {
+            display: flex;
+            color: white;
+            width: 360px;
+            height: 300px;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            order: -1;
+
+
+            .manubrio__cosas {
+                width: 360px;
+                height: 200px;
+                align-items: center;
+
+                p {
+                    font-size: 1.5em;
+                }
+
+                h1 {
+                    font-size: 2em;
+                }
+            }
+        }
+
+        .our__aim {
+            display: flex;
+            width: 360px;
+            height: 300px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1.5em;
+
+            }
+        }
+
+
+
+        .footer {
+            display: flex;
+            height: 200px;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+
+            .pie {
+
+                height: 150px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+
+                p {
+
+
+                    font-size: 1.5em;
+                    text-align: center;
+                    color: #fff;
+                    min-height: 10vh;
+                    align-items: flex-end;
+                    display: flex;
+
+                }
+
+                .buttons_redes {
+                    min-width: 300px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                }
+
+                .buttons_redes a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #314652;
+                    color: map-get($colors, amarillo);
+                    border-radius: 50%;
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+                    transition: all .4s ease-in-out;
+                }
+
+                .buttons_redes a:hover {
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
     }
 
 }
@@ -344,7 +1183,7 @@
                 font-size: 3em;
                 justify-items: center;
                 text-align: center;
-                
+
 
                 h3 {
                     display: flex;
@@ -442,31 +1281,22 @@
             display: flex;
             height: 200px;
             align-items: flex-end;
-            justify-content: center;
-            gap: 10rem;
             width: 100%;
 
             .pie {
-                height: 200px;
+                height: 100px;
                 display: flex;
-                align-items: flex-end;
                 flex-direction: column;
-                width: 320px;
                 align-items: center;
 
 
                 p {
-
                     font-size: 1em;
-                    // text-align: center;
+                    text-align: center;
                     color: #fff;
                     min-height: 10vh;
                     align-items: flex-end;
-                    width: 100%;
-                    height: 100px;
                     display: flex;
-                    justify-content: center;
-                    justify-items: center;
                 }
 
                 .buttons_redes {
@@ -503,141 +1333,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .stem{
-//     display: flex;
-//     flex-direction: row;
-//     height: 500px;
-//     width: 100%;
-//     align-items: center;
-
-//     pedal{
-
-//     }
-//     img.photo{
-//         display: flex;
-//         width: 100%;
-//         height: 400px;
-//         gap: 2rem;
-//         align-items: center;
-//     }
-
-
-//     .manubrio__container{
-//         display: flex;
-//         color: white;
-//         text-align: center;
-//         width: 50%;
-//         height: 400px;
-//     }
-//     p{
-//         justify-content: center;
-//         font-size: 1em;
-//         text-align: center;
-//         align-items: center;
-//     }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .About-container {
-//     gap: 2rem;
-//     align-items: center;
-
-
-// }
-
-// .About-description {
-//     flex-basis: 50%;
-//     color: $principal;
-
-
-// }
-
-// .presentation-container-about h1 {
-//     font-size: 5.2em;
-//     text-align: center;
-// }
-
-// .presentation-container-about h2 {
-//     font-size: 3.2em;
-//     text-align: center;
-
-// }
-
-// .presentation-container-about p {
-//     font-size: 3em;
-// }
-
-// .ruedas{
-
-//     align-items: center;
-//     color: white;
-//     font-size: 2.5em;
-//     padding: 5rem;
-//     @include flex(row,space-between,center,map-get($spacings,medium), 4rem)
-// }
-
-
-// /*Media queries*/
-
-// @media (max-width: 768px) {
-//     .About-container {
-//         display: flex;
-//         flex-wrap: wrap;
-//         font-size: .8em;
-//     }
-
-//     .About-description {
-//         flex-direction: column;
-//         align-items: center;
-//     }
-// }
