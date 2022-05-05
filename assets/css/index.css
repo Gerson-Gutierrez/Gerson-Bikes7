@@ -2,6 +2,9 @@
 /* Variable */
 /*Maps*/
 @import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .sp-xlarge {
   padding: 5rem; }
 
@@ -95,7 +98,8 @@ header .menu {
 
 .menu .menu__item .menu__link {
   font-size: 1.8em;
-  padding: 1rem; }
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif; }
 
 .navbar .menu__item .sub-menu {
   display: none;
@@ -234,9 +238,7 @@ header .menu {
 /*VIEWS*/
 /* Main section*/
 .body_index {
-  background-color: black;
-  display: grid;
-  grid-template-rows: auto 1fr auto; }
+  background-color: black; }
 
 /* ESTILOS DEL PARALLAX*/
 .banner-1 {
@@ -261,7 +263,8 @@ header .menu {
       color: white;
       align-items: center;
       justify-content: center;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Montserrat', sans-serif; }
 
 .section {
   display: flex;
@@ -271,7 +274,8 @@ header .menu {
 .subtitle h1 {
   text-align: center;
   font-size: 5em;
-  color: white; }
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
 
 .presentation {
   gap: 2rem;
@@ -300,10 +304,12 @@ header .menu {
     text-align: center;
     display: flex; }
     .ruedas_1 .presentation__description .presentation__container p {
-      font-size: 2rem; }
+      font-size: 2.1em;
+      font-family: 'Cormorant Infant', serif; }
     .ruedas_1 .presentation__description .presentation__container h1 {
       font-size: 3em;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Montserrat', sans-serif; }
 
 .ruedas_2 {
   display: flex;
@@ -326,10 +332,12 @@ header .menu {
     text-align: center;
     display: flex; }
     .ruedas_2 .presentation__description .presentation__container p {
-      font-size: 2rem; }
+      font-size: 2.1em;
+      font-family: 'Cormorant Infant', serif; }
     .ruedas_2 .presentation__description .presentation__container h1 {
       font-size: 3em;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Montserrat', sans-serif; }
 
 .ruedas_3 {
   display: flex;
@@ -351,10 +359,12 @@ header .menu {
     text-align: center;
     display: flex; }
     .ruedas_3 .presentation__description .presentation__container p {
-      font-size: 2rem; }
+      font-size: 2.1em;
+      font-family: 'Cormorant Infant', serif; }
     .ruedas_3 .presentation__description .presentation__container h1 {
       font-size: 3em;
-      text-align: center; }
+      text-align: center;
+      font-family: 'Montserrat', sans-serif; }
 
 .section__Testimonials {
   display: flex;
@@ -379,13 +389,15 @@ header .menu {
     height: 200px;
     font-size: 4rem;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    font-family: 'Allura', cursive; }
   .testimonials p {
     display: flex;
     font-size: 2rem;
     width: 100%;
     height: 60px;
-    justify-content: center; }
+    justify-content: center;
+    font-family: 'Cormorant Infant', serif; }
 
 .witnees {
   display: flex;
@@ -399,7 +411,8 @@ header .menu {
     height: 100px;
     width: 100%;
     color: white;
-    align-items: center; }
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; }
   .witnees .attestation {
     display: flex;
     width: 100%;
@@ -410,8 +423,9 @@ header .menu {
       width: 100%;
       color: white;
       text-align: center;
-      font-size: 1.5em;
-      justify-content: center; }
+      font-size: 2em;
+      justify-content: center;
+      font-family: 'Cormorant Infant', serif; }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
@@ -1675,7 +1689,8 @@ header .menu {
     align-items: center;
     color: white;
     font-size: 10rem;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
     .parallax .parallax-text h3 {
       display: flex;
       width: 100%;
@@ -1718,9 +1733,11 @@ header .menu {
     height: 300px;
     align-items: center; }
     .manubrio .manubrio__cosas p {
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      font-family: 'Cormorant Infant', serif; }
     .manubrio .manubrio__cosas h1 {
-      font-size: 3em; }
+      font-size: 3em;
+      font-family: 'Montserrat', sans-serif; }
 
 .our__aim {
   display: flex;
@@ -1731,9 +1748,11 @@ header .menu {
   justify-content: center;
   color: white; }
   .our__aim h1 {
-    font-size: 4rem; }
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif; }
   .our__aim p {
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-family: 'Cormorant Infant', serif; }
 
 /*Media queries*/
 @media screen and (max-width: 768px) {
@@ -2539,7 +2558,8 @@ header .menu {
     align-items: center;
     color: white;
     font-size: 10rem;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
     .parallax__service .parallax_text_service h3 {
       display: flex;
       width: 100%;
@@ -2564,11 +2584,13 @@ header .menu {
     .service-container .service-description .presentation-container-service h1 {
       font-size: 5.2em;
       text-align: center;
-      width: 100%; }
+      width: 100%;
+      font-family: 'Montserrat', sans-serif; }
     .service-container .service-description .presentation-container-service p {
       font-size: 2em;
       text-align: center;
-      width: 100%; }
+      width: 100%;
+      font-family: 'Cormorant Infant', serif; }
   .service-container .bici__service {
     width: 100%;
     height: 600px;
@@ -3282,7 +3304,8 @@ header .menu {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 10rem; }
+    font-size: 10rem;
+    font-family: 'Montserrat', sans-serif; }
     .parallax__contact .parallax_text_contact h3 {
       display: flex;
       width: 100%;
@@ -3365,7 +3388,7 @@ header .menu {
 .contact-info ul li {
   padding: .3em; }
 
-/*Large Screen*/
+/*Media queries*/
 @media (min-width: 700px) {
   body-contact {
     padding: 0 4rem; }
@@ -4256,7 +4279,8 @@ header .menu {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 10rem; }
+    font-size: 10rem;
+    font-family: 'Montserrat', sans-serif; }
     .parallax__bikes .parallax_text_bikes h3 {
       display: flex;
       width: 100%;
@@ -4268,7 +4292,8 @@ header .menu {
 .titulo {
   color: white;
   text-align: center;
-  font-size: 5rem; }
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif; }
 
 .contenedor-galeria {
   display: flex;

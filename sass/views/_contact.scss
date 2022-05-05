@@ -16,7 +16,7 @@
     background-attachment: fixed;
     width: 100%;
     height: 800px;
-    // opacity: 0.7;
+
 
     .parallax_text_contact {
         display: flex;
@@ -26,6 +26,7 @@
         align-items: center;
         color: white;
         font-size: 10rem;
+        font-family: 'Montserrat', sans-serif;
 
         h3 {
             display: flex;
@@ -42,8 +43,6 @@
 
 .content {
     max-width: 1170px;
-    // margin-left: auto;
-    // margin-right: 2em;
     padding: 1.5em;
     font-size: 1.5em;
     box-sizing: border-box;
@@ -134,7 +133,7 @@
     padding: .3em;
 }
 
-/*Large Screen*/
+/*Media queries*/
 @media (min-width:700px) {
     body-contact {
         padding: 0 4rem;
@@ -150,7 +149,6 @@
     }
 
 }
-
 
 @media screen and(max-width:768px) {
     .main_contact {
